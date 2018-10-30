@@ -1,0 +1,381 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-flipped.css");
+/************************menu**************************/
+
+.col-md-12.pad-none-custom {
+	padding: 0;
+}
+
+
+.brand {
+	float: right;
+}
+.sidebar-toggle-box {
+	right: auto !important;
+	left: 0px;
+}
+.nav.pull-right.top-menu {
+	float: left !important;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+	left: 0 !important;
+	position: absolute;
+	margin-left: 15px;
+}
+.top-nav li.dropdown .dropdown-menu {
+	right: auto;
+	left: 0;
+}
+a.logo {
+	float: right;
+	margin-left: 0;
+	margin-right: 18px;
+}
+.caret {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.dropdown-menu.extended.logout > li > a > i {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+/***************************sidebar***************************/
+.hide-left-bar {
+	margin-right: -240px !important;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	margin-left: auto;
+}
+#main-content {
+	margin-left: 0;
+	margin-right: 280px;
+}
+.merge-left {
+	margin-right: 0px !important;
+}
+ul.sidebar-menu li a {
+	padding-left: 0;
+	padding-right: 25px;
+}
+ul.sidebar-menu li a i {
+	padding-right: 0;
+	padding-left: 6px;
+}
+.dcjq-icon {
+	right: auto;
+	left: 10px;
+}
+.hide-left-bar .sidebar-toggle-box {
+    right: auto !important;
+    left: -24px !important;
+}
+
+/*************************admin*****************************/
+.bar-legend {
+	padding-right: 0;
+}
+.pull-left.spark-bar-label {
+	float: right !important;
+}
+.clearfix.prospective-spark-bar {
+	padding-right: 0 !important;
+}
+.prospective-spark-bar .pull-right{
+	float: left !important;
+}
+.panel-heading a {
+	float: left !important;
+}
+.daily-sales-info {
+	text-align: right;
+}
+.bar-legend {
+	right: auto;
+	left: 0;
+}
+.progress-stat-bar.clearfix {
+	padding-right: 0;
+}
+.progress-stat-bar li {
+	float: right;
+}
+.progress-stat-bar.clearfix li:first-child {
+	margin-right: 0;
+}
+.panel-heading .fa.fa-angle-double-right {
+	transform: rotate(180deg);
+}
+.clearfix.notification-meta {
+	padding-right: 0 !important;
+}
+.notification-info {
+	margin-left: 0;
+	margin-right: 56px;
+	/*float: right;*/
+}
+.pull-left.notification-sender {
+	float: right !important;
+}
+.dataTables_wrapper .dataTables_filter{
+	float: left;
+}
+#editable-sample_length {
+	float: right;
+}
+.table-bordered > tbody > tr > td:last-child, .table-bordered > thead > tr > th:last-child{
+	border-right: 1px solid #ccc;
+}
+.table-bordered > tbody > tr > td:first-child, .table-bordered > thead > tr > th:first-child{
+	border-right: none;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled{
+	background-position: center left;
+}
+.action .btn.btn-xs.btn-primary {
+	margin-right: 0px !important;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.action .btn.btn-xs.btn-primary.delete {
+	margin-left: 10px;
+}
+.dataTables_wrapper .dataTables_info{
+	float: right;
+}
+ul, .list-unstyled{
+	padding-left: 0;
+}
+.dataTables_paginate.paging_bootstrap.pagination {
+	float: left;
+}
+.adv-table .dataTables_length select {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.btn-div {
+	float: right;
+}
+.bnt-full {
+	margin-left: 15px;
+	margin-right: 0;
+}
+.date-input-custom {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.input-group-btn.add-on {
+	margin-left: 28px;
+}
+.add-on {
+	float: left;
+}
+.btn.btn-white.remove_map_div {
+	float: left !important;
+	margin-right: 0 !important;
+	margin-left: 15px !important;
+}
+.btn.btn-primary.btn-red.add_item_price {
+	float: left !important;
+}
+.btn.btn-warning.btn-red.btn-mcustom {
+	float: left;
+	margin-left: 15px !important;
+}
+.btn.btn-warning.active_button {
+	float: left;
+}
+.dataTables_wrapper .dataTables_length {
+	float: right;
+}
+.store_view_from_group{
+	float: left !important;
+}
+.btn.btn-success.service_save_button {
+	float: left;
+	margin-right: 20px;
+	margin-left: 0;
+}
+.map_div a.btn.btn-primary.btn-red {
+    float: left;
+    margin-left: 15px;
+}
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom {
+	direction: ltr;
+	right: auto;
+	/*padding-top: 80px;*/
+}
+.datepicker.dropdown-menu {direction: ltr;right:auto}
+
+.icheck.minimal input{
+	margin-right: 0 !important;
+}
+/*  Akruti Changes start here  */
+.notify-row {
+    float: right;
+    margin-right: 20px;
+}
+.notify-row .badge{
+	right:20px;
+}
+.sidebar-toggle-box .fa-bars{
+	padding: 8px 9px 8px 8px;
+}
+.custom_print_option{
+	float: right;
+}
+.dropdown-menu.extended.logout>li{
+	text-align: right;
+}
+.custom_pagination_class{
+	float: right;
+}
+.table-bordered > thead > tr > th, .fc-border-separate .fc-grid th{
+	text-align: right;
+}
+.custom_print_option .dt-buttons{
+	float: right;
+}
+.date-input-custom{
+	float: right;
+}
+.notification-time{
+	float: left !important;
+    margin-left: 50px;
+}
+.custom_report_date_save{
+	float: right;
+}
+.label-custom{
+	float: right;
+}
+.vendor-job-custom{
+	float: right;
+}
+.mini-stat-icon.orange.img-custom{
+	float: right;
+	margin-left: 20px;
+}
+.mini-stat-info i{
+	float: left !important;
+}
+.control-label{
+	float: right;
+}
+.btn.btn-success, .btn.cancel_button, .btn.btn-warning{
+	float: left !important;
+	margin-right: 10px;
+}
+.icheck label {
+    margin-right: 30px;
+}
+.location_edit{
+	float: right;
+}
+.btn.add_new_address{
+	float: left !important;
+}
+.below_btn{
+	float: right;
+}
+.below_btn .btn.btn-success, .below_btn .btn.btn-warning{
+	float: right !important;
+}
+.btn_edit{
+	float: left !important;
+}
+.panel-btn .btn-warning, .panel-btn .btn-success, .panel-btn .btn-info, .panel-btn .btn-send,.panel-btn .btn-danger{
+	float: right !important;
+	margin: 0 5px;
+}
+.order-btn .btn-primary, .order-btn .btn-default{
+	float: left !important;
+	margin: 0 5px;
+}
+.action-btn .btn-success, .action-btn .active_button, .action-btn .btn-warning{
+	float: right !important;
+	margin: 0 5px;
+}
+.input-group-btn:last-child>.btn{
+	border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.spacing{
+	margin-right: 10px;
+}
+td.action .btn-xs {
+    float: right !important;
+}
+/*  Akruti Changes end here  */
+
+@media screen and (max-width: 991px){
+	.action .btn.btn-xs.btn-primary.delete {
+		margin-left: 3px;
+	}
+	.action .btn.btn-xs.btn-primary {
+		margin-right: 0px !important;
+		margin-left: 3px;
+	}
+	.panel-body .btn {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	.form-group.module-access-box {
+		margin-right: 0;
+	}
+	.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group{
+		margin: auto;
+	}
+}
+
+@media screen and (max-width:767px){
+	.top-nav {
+		margin-top: 15px;
+		margin-bottom: 50px;
+	}
+	.col-md-12.pad-none-custom {
+	    padding: 0;
+	}
+	.hide-left-bar {
+		margin-right: 0px !important;
+	}
+	#sidebar {
+		margin-right: -280px;
+	}
+	#main-content {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	.brand .sidebar-toggle-box {
+	    right: auto !important;
+	    left: 28px !important;
+	}
+	.panel-body .btn {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	#s2id_skill_id {
+		width: 100% !important;
+	}
+	.panel {
+		padding: 5px;
+	}
+	.form-group.module-access-box {
+		margin-right: 0;
+	}
+	.leftside-navigation {
+		height: 100%;
+		overflow: scroll !important;
+		margin-bottom: 85px !important;
+	}
+}
+@media screen and (max-width:479px){
+	.top-nav {
+		margin-top: -2px;
+		margin-bottom: 50px;
+	}
+}
+
